@@ -1,0 +1,24 @@
+body {
+    background-color: #000;
+    background-image: url('/static/Orest_Kiprensky_-_A_Pushkin.jpg'); /* Путь к изображению */
+    background-size: contain; /* Масштабирование */
+    background-position: center; /* Центрирование */
+    background-repeat: no-repeat; /* Без повторов */
+    height: 100vh; /* Полный размер экрана */
+    color: #D89A4D;
+}
+
+h1 {
+    color: #985410;
+}
+
+h2 {
+    font-size: 28px;
+    color: #985410;
+    margin-top: 5%;
+    /*text-shadow: 1px 1px 2px rgba(216, 154, 77, 0.6); !* Красивый эффект *!*/
+}
+
+b {
+    color: #985410;
+}
