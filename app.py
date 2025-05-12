@@ -61,5 +61,3 @@ if __name__ == '__main__':
 # debug - этап дебага Video 1, 1:23:00.
 # load_dotenv - адрес.
 
-
-

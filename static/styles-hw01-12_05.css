@@ -1,6 +1,6 @@
 body {
     background-color: #000;
-    background-image: url('/static/Orest_Kiprensky_-_A_Pushkin.jpg'); /* Путь к изображению */
+    background-image: url('/static/Orest_Kiprensky-A_Pushkin.jpg'); /* Путь к изображению */
     background-size: contain; /* Масштабирование */
     background-position: center; /* Центрирование */
     background-repeat: no-repeat; /* Без повторов */
@@ -19,6 +19,11 @@ h2 {
     /*text-shadow: 1px 1px 2px rgba(216, 154, 77, 0.6); !* Красивый эффект *!*/
 }
 
+h3 {
+    color: #D89A4D;
+}
+
 b {
-    color: #985410;
+    font-size: 16px;
+    color: #D89A4D;
 }

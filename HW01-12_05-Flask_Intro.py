@@ -14,7 +14,7 @@ def home():
     return render_template('hw01-12_05-home.html')
 
 
-# Task 2.3 - Расширение функциональности:
+# Task 2.3 - Расширение функциональности + 2.4 - Запуск и тестирование приложения:
 @app.route('/user/<string:username>')
 def get_username(username):
     return render_template('hw01-12_05-username.html', username=username)
