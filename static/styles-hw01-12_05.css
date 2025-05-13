@@ -13,14 +13,16 @@ h1 {
 }
 
 h2 {
-    font-size: 28px;
-    color: #985410;
-    margin-top: 5%;
+    font-size: 24px;
+    color: #D89A4D;
+    margin-top: 1%;
     /*text-shadow: 1px 1px 2px rgba(216, 154, 77, 0.6); !* Красивый эффект *!*/
 }
 
 h3 {
-    color: #D89A4D;
+    font-size: 18px;
+    color: #985410;
+    margin-top: 2%;
 }
 
 b {
