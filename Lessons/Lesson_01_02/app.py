@@ -53,10 +53,12 @@ def get_password():
 
 
 if __name__ == '__main__':
-    # app.run()
-    app.run(port=5001,debug=True)
+    app.run()
+    # app.run(port=5001,debug=True)
 
 # host - сервер.
-# port - порт, на котором слушает все запросы.
+# port - порт, на котором Даемон слушает все запросы.
 # debug - этап дебага Video 1, 1:23:00.
 # load_dotenv - адрес.
+
+print(f'\033[40;1;31m{__name__} - печатает ИМЯ файла! \033[0m')
