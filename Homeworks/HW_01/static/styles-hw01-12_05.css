@@ -1,6 +1,6 @@
 body {
     background-color: #000;
-    background-image: url('/static/Orest_Kiprensky-A_Pushkin.jpg'); /* Путь к изображению */
+    background-image: url('Orest_Kiprensky-A_Pushkin.jpg'); /* Путь к изображению */
     background-size: contain; /* Масштабирование */
     background-position: center; /* Центрирование */
     background-repeat: no-repeat; /* Без повторов */
