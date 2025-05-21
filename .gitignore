@@ -2,3 +2,5 @@
 /.venv/
 /.idea
 /__pycache__/
+
+/Homeworks/HW_02/test.py
