@@ -25,10 +25,10 @@ print('.' * 80)
 from sqlalchemy import (create_engine, Column, Integer, String, Numeric, Boolean,
                         ForeignKey, event)
 from sqlalchemy.orm import relationship, sessionmaker, declarative_base, Session
-import logging
 from sqlalchemy import event
-
-from rich import print
+import logging
+# Модуль rich для красивого вывода в консоли:
+from rich import print              # https://github.com/textualize/rich/blob/master/README.ru.md
 from rich.console import Console
 from rich.table import Table
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
